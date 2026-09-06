@@ -71,7 +71,7 @@ AI 驱动的西方哲学与英文经典深度精读平台 · 官方多平台客�
 
 ```bash
 # macOS / Linux
-shasum -a 256 Readaris-1.0.0-arm64.dmg # SHA-256: 391c4fe1b65d065f4a6b076d1bda711f4f913e9cc595150633dd9ee54bedae96
+shasum -a 256 Readaris-1.0.0-arm64.dmg # SHA-256: 29895be21a2664c30de2e72557358254b542cfff3bb35179b69689cd4371939c # SHA-256: 391c4fe1b65d065f4a6b076d1bda711f4f913e9cc595150633dd9ee54bedae96
 
 # Windows (PowerShell)
 Get-FileHash -Algorithm SHA256 .\Readaris-Setup-1.0.0-x64.exe
