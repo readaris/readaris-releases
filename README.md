@@ -33,12 +33,12 @@ AI 驱动的西方哲学与英文经典深度精读平台 · 官方多平台客�
 
 | 操作系统 | 适用架构 / 格式 | 安装包类型 | 下载入口 |
 | :--- | :--- | :--- | :--- |
-| **macOS** | Apple Silicon (`arm64`) | `.dmg` 镜像文件 | [⬇️ 下载 (M1/M2/M3/M4 系列)](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.0-arm64.dmg) |
-| **macOS** | Intel x86_64 (`x64`) | `.dmg` 镜像文件 | [⬇️ 下载 (Intel 处理器)](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.0-x64.dmg) |
-| **Windows** | Windows 10 / 11 (64-bit) | `.exe` 安装程序 | [⬇️ 下载 64 位安装包](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-Setup-1.0.0-x64.exe) |
-| **Windows** | Windows 10 / 11 (64-bit) | `.zip` 免安装绿色版 | [⬇️ 下载便携版 Zip](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.0-windows-portable.zip) |
-| **Android** | Universal (全架构通用) | `.apk` 直装包 | [⬇️ 下载通用 APK](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.0-universal.apk) |
-| **Android** | ARM64-v8a (轻量高效) | `.apk` 直装包 | [⬇️ 下载 ARM64 专版 APK](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.0-arm64-v8a.apk) |
+| **macOS** | Apple Silicon (`arm64`) | `.dmg` 镜像文件 | [⬇️ 下载 (M1/M2/M3/M4 系列)](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.2-arm64.dmg) |
+| **macOS** | Intel x86_64 (`x64`) | `.dmg` 镜像文件 | [⬇️ 下载 (Intel 处理器)](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.2-x64.dmg) |
+| **Windows** | Windows 10 / 11 (64-bit) | `.exe` 安装程序 | [⬇️ 下载 64 位安装包](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-Setup-1.0.2-x64.exe) |
+| **Windows** | Windows 10 / 11 (64-bit) | `.zip` 免安装绿色版 | [⬇️ 下载便携版 Zip](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.2-windows-portable.zip) |
+| **Android** | Universal (全架构通用) | `.apk` 直装包 | [⬇️ 下载通用 APK](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.2-universal.apk) |
+| **Android** | ARM64-v8a (轻量高效) | `.apk` 直装包 | [⬇️ 下载 ARM64 专版 APK](https://github.com/readaris/readaris-releases/releases/latest/download/Readaris-1.0.2-arm64-v8a.apk) |
 | **iOS / iPadOS** | iPhone & iPad | App Store / TestFlight | [🍏 App Store 页面](https://apps.apple.com/app/readaris/id6470000000) · [✈️ TestFlight 公测版](https://testflight.apple.com/join/ReadarisBeta) |
 
 ---
@@ -55,7 +55,7 @@ AI 驱动的西方哲学与英文经典深度精读平台 · 官方多平台客�
      ```
 
 ### 🪟 Windows
-1. 运行 `Readaris-Setup-1.0.0-x64.exe` 按照向导完成安装；或解压便携包直接运行目录中的 `Readaris.exe`。
+1. 运行 `Readaris-Setup-1.0.2-x64.exe` 按照向导完成安装；或解压便携包直接运行目录中的 `Readaris.exe`。
 2. **首次运行弹出 Windows SmartScreen 提示“已保护你的电脑”**：
    - 这是因为应用尚未购买微软昂贵的商业 EV 证书，点击界面上的 **「更多信息 (More info)」**，然后点击 **「仍要运行 (Run anyway)」** 即可。
 
@@ -71,7 +71,7 @@ AI 驱动的西方哲学与英文经典深度精读平台 · 官方多平台客�
 
 ```bash
 # macOS / Linux
-shasum -a 256 Readaris-1.0.0-arm64.dmg # SHA-256: 29895be21a2664c30de2e72557358254b542cfff3bb35179b69689cd4371939c # SHA-256: 29895be21a2664c30de2e72557358254b542cfff3bb35179b69689cd4371939c # SHA-256: 391c4fe1b65d065f4a6b076d1bda711f4f913e9cc595150633dd9ee54bedae96
+shasum -a 256 Readaris-1.0.2-arm64.dmg # SHA-256: fa2d1f94a9e3a719cd6b72cada51484cceef06dff6e1f311f5ea08ab84835461
 
 # Windows (PowerShell)
-Get-FileHash -Algorithm SHA256 .\Readaris-Setup-1.0.0-x64.exe
+Get-FileHash -Algorithm SHA256 .\Readaris-Setup-1.0.2-x64.exe
